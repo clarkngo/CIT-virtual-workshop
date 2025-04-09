@@ -1,4 +1,4 @@
-
+# Version 1
 # Client
 ```
 npm create vite@latest client --template react
@@ -16,5 +16,5 @@ npm init -y
 npm install express mongoose cors dotenv
 ```
 
-Note:
-package.json should have "type": "module",
+Optional fix:
+- `package.json` should have `"type": "module"`.
