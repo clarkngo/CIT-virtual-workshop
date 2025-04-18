@@ -4,11 +4,11 @@
 3. press `y`
 4. keep pressing down arrow until `React` is highlighted and press Enter
 5. keep pressing down arrow until `JavaScript` is highlighted and press Enter
-6. `cd functional-components`
+6. `cd props`
 7. `npm install`
 8. `npm run dev`
 
-# Activity - Functional Components with React
+# Activity - Props with React
 1. Delete the contents of `main.jsx`
 2. Replace with
 ```
