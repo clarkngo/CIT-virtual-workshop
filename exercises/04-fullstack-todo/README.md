@@ -266,3 +266,7 @@ export default defineConfig({
   },
 })
 ```
+
+## Optional:
+- `package.json` should have `"type": "module"`.
+- Create your own MongoDB Atlas instance for free. follow the MONGODB SETUP.pdf or reference to the official website: https://www.mongodb.com/products/platform/atlas-database
