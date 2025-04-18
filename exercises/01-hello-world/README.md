@@ -4,7 +4,7 @@
 3. press `y`
 4. keep pressing down arrow until `React` is highlighted and press Enter
 5. keep pressing down arrow until `JavaScript` is highlighted and press Enter
-6. `cd functional-components`
+6. `cd hello-world`
 7. `npm install`
 8. `npm run dev`
 
