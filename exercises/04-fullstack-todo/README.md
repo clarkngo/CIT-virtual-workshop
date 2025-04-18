@@ -247,9 +247,9 @@ function TodoList({ todos, toggleTodo, deleteTodo }) {
   export default TodoList
   ```
 
-  ## Update your vite.config.js for proxy
-  ```
-  import { defineConfig } from 'vite'
+## Update your vite.config.js for proxy
+```
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
