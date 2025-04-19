@@ -1,4 +1,4 @@
-# Root
+# Root - Hello World
 - Create a root
 - Render some markup to the root
 * The HTML sets up the basic skeleton of the page.
