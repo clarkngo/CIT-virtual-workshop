@@ -1,47 +1,47 @@
-🧠 LEVEL 1: Feature Upgrades (Perfect for beginners)
-1. ✅ Toggle Completion with Checkbox
-Add a checkbox to mark tasks done or undone — update the backend accordingly.
+🧠 Level 1: Core Feature Enhancements
+✅ Toggle Completion with Checkbox
+Add a checkbox to each task to mark it as complete or incomplete. Sync this state with the backend.
 
-2. 🗑️ Delete All Completed
-Add a "Clear Completed" button that removes all completed tasks in one go.
+🗑️ Delete All Completed
+Introduce a "Clear Completed" button to quickly remove all tasks marked as done.
 
-3. 📝 Edit Task
-Allow users to click a task and edit its text (with inline input and save).
+📝 Inline Task Editing
+Enable users to click on a task to edit its text directly in place, with an input field and save action.
 
-4. 🔍 Filter Tasks
-Add filter buttons: All | Active | Completed
+🔍 Task Filtering
+Add filtering controls to view all tasks, only active ones, or only completed ones.
 
-5. 📅 Due Dates & Reminders
-Let users set a due date or reminder for each task.
+📅 Due Dates & Basic Reminders
+Allow users to set a due date for each task. Lay the groundwork for reminder features.
 
-🔥 LEVEL 2: Intermediate Projects
-6. 👤 User Authentication
-Use JWT or Firebase Auth so users can sign up and have private task lists.
+🔥 Level 2: Intermediate Feature Expansions
+👤 User Authentication
+Implement login and registration with JWT or Firebase to allow users to manage their own private task lists.
 
-7. 🌐 Deploy It
-Teach students how to deploy frontend (e.g. Vercel) + backend (Render/Fly.io) and connect to MongoDB Atlas.
+🌐 App Deployment
+Deploy the app using services like Vercel (frontend) and Render or Fly.io (backend), with MongoDB Atlas as the database.
 
-8. 📈 Stats Dashboard
-Show number of active/completed tasks, % complete, etc.
+📈 Stats Dashboard
+Show productivity metrics like number of tasks completed, active items, and overall progress percentage.
 
-9. 📱 Convert to PWA
-Turn the app into a Progressive Web App that works offline!
+📱 Progressive Web App (PWA)
+Convert the app into a PWA to support offline access and installation on mobile devices.
 
-10. 📎 File Attachments
-Allow users to upload files/images per task (store on Cloudinary, Firebase, or MongoDB GridFS).
+📎 File Uploads
+Enable attaching files or images to tasks using a storage service like Cloudinary, Firebase Storage, or MongoDB GridFS.
 
-🧪 LEVEL 3: Advanced / Project Ideas
-11. 🔔 Notifications
-Send browser or email reminders when tasks are nearing due date.
+🧪 Level 3: Advanced Features & Innovations
+🔔 Smart Notifications
+Send real-time or scheduled browser/email notifications when a task’s due date is approaching.
 
-12. 🧭 Daily Planner or Calendar View
-Let users see todos in a calendar, like a mini productivity app.
+🧭 Calendar View / Daily Planner
+Add a calendar interface so users can view and plan tasks by date — similar to a lightweight planner.
 
-13. 🧵 Subtasks or Checklists
-Add support for subtasks inside each to-do item (think Notion-style).
+🧵 Subtasks or Checklists
+Let users create subtasks within a main task for better organization and tracking.
 
-14. 🧑‍🤝‍🧑 Shared Lists / Collaboration
-Allow multiple users to collaborate on the same list with real-time updates (WebSocket or Firebase).
+🧑‍🤝‍🧑 Shared Lists & Collaboration
+Allow task lists to be shared across users with real-time collaboration via WebSockets or Firebase.
 
-15. 📚 AI Integration
-Use OpenAI to auto-categorize tasks, or suggest breaking down vague tasks into smaller steps.
+📚 AI-Powered Task Management
+Use AI (e.g. OpenAI) to auto-categorize tasks, detect vague entries, and suggest how to break them into actionable steps.
