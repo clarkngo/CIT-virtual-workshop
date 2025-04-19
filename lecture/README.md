@@ -48,3 +48,28 @@ root.render(
     reactElement
 )
 ```
+
+# State
+
+Without useState → You're writing on a piece of paper, and no one is watching you.
+With useState → You're writing on a live camera feed, and React is watching — as soon as you write something new, it updates the screen automatically.
+
+
+🪨 Without useState, your app becomes static
+If you store your todos in a regular variable like this:
+```
+const todos = ["Buy milk", "Do laundry"]
+```
+React will render that list once, when the component loads. But here’s the catch:
+🔄 If the user adds a new todo, the screen won’t update. ✏️ Changing todos.push("New item") won’t make React re-render the list. 🧠 Because React doesn’t "know" anything changed.
+React doesn’t watch regular variables. It only watches state and props. That’s how it knows when to re-render a component.
+
+✅ With useState, React reacts
+```
+const [todos, setTodos] = useState([])
+```
+Now:
+* React remembers the value.
+* When you call setTodos([...todos, "New item"]), React:
+    * Updates the value
+    * 🚀 Re-renders the UI
